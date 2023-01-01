@@ -32,10 +32,9 @@ body {
   border: none;
   background-color: #212121;
   color: #f5f5f5;
-  border: #448aff;
-  border-width: thick;
   border-radius: 10rem;
   cursor: pointer;
+  transition: all 0.25s ease;
 }
 
 .show-modal:hover {
@@ -52,6 +51,7 @@ body {
   cursor: pointer;
   border: none;
   background: none;
+  transition: all 0.25s ease;
 }
 
 .close-modal:hover {
